@@ -5,6 +5,3 @@ public class Main {
         System.out.println("Привет мир");
     }
 }
-ыпфпрфрываррпв
-фыпа
-        фпфпафпафа7878
