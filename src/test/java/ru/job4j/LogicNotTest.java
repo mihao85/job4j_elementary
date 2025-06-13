@@ -128,5 +128,4 @@ class LogicNotTest {
         boolean result = LogicNot.evenOrNegative(num);
         assertThat(result).isFalse();
     }
-
 }
