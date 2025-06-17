@@ -3,7 +3,7 @@ package ru.job4j.condition;
 import org.junit.jupiter.api.Test;
 
 import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
-import static org.junit.jupiter.api.Assertions.*;
+
 
 class TriangleTest {
     @Test
@@ -14,6 +14,7 @@ class TriangleTest {
         boolean result = Triangle.exist(ab, ac, bc);
         assertThat(result).isTrue();
     }
+
 
     @Test
     void whenExistIsNoTriangl() {
