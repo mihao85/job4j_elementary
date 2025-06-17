@@ -12,7 +12,6 @@ class TriangleTest {
         assertThat(result).isTrue();
     }
 
-
     @Test
     void whenExistIsNoTriangl() {
         double ab = 1.0;
