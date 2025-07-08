@@ -15,7 +15,7 @@ class FactorialTest {
     }
 
     @Test
-    void whenCalculateFactorialForZiroThenOne() {
+    void whenCalculateFactorialForZeroThenOne() {
         int expected = 1;
         int number = 0;
         int output = Factorial.calculate(number);
