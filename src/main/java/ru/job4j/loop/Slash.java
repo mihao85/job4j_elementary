@@ -5,7 +5,7 @@ public class Slash {
         for (int row = 0; row < size; row++) {
             for (int cell = 0; cell < size; cell++) {
                 boolean left = row == cell; /* добавить условие для левой диагонали - с левого верхнего угла в правый нижний*/
-                boolean right = (cell+1) == (size - row); /* добавить условие для правой диагонали - из левого нижнего в правый верхний*/
+                boolean right = (cell + 1) == (size - row); /* добавить условие для правой диагонали - из левого нижнего в правый верхний*/
                 if (left) {
                     System.out.print("0");
                 } else if (right) {
