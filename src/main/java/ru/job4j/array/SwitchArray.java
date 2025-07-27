@@ -7,7 +7,6 @@ public class SwitchArray {
         array[destination] = temp;
         return array;
     }
-
     public static int[] swapBorder(int[] array) {
         int temp = array[0];
         array[0] = array[array.length - 1];
