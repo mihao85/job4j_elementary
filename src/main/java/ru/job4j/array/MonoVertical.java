@@ -1,6 +1,5 @@
 package ru.job4j.array;
 
-
 public class MonoVertical {
     public static boolean monoVertical(char[][] board, int column) {
         boolean result = true;
