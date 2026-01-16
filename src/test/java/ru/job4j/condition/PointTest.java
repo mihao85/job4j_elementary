@@ -26,4 +26,18 @@ class PointTest {
         Point b = new Point(10, 2);
         assertEquals(8.944, a.distance(b), 0.001);
     }
+
+    @Test
+    void distanceTwoSixTenEight() {
+        Point a = new Point(2, 6, 8);
+        Point b = new Point(10, 8, 2);
+        assertEquals(10.198, a.distance3d(b), 0.001);
+    }
+
+    @Test
+    void distanceTwoSixTenSeven() {
+        Point a = new Point(2, 7, 6);
+        Point b = new Point(10, 2, 7);
+        assertEquals(9.487, a.distance3d(b), 0.001);
+    }
 }
