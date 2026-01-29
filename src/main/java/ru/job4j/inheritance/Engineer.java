@@ -4,7 +4,7 @@ public class Engineer {
     private int experience;
 
     public Engineer(int experience, boolean degree) {
-        super(degree);
+        super();
         this.experience = experience;
     }
 }
